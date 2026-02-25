@@ -1,10 +1,10 @@
-import HomePage from './componenst/Home/HomePage';
-import AboutMe from './componenst/AboutMe/AboutMe';
-import Skills from './componenst/Skills/Skills';
-import Projects from './componenst/Projects/Projects';
-import Contact from './componenst/Contact/Contact';
-import Footer from './componenst/Footer/Footer';
-import Nav from './componenst/Nav/Nav';
+import HomePage from './components/Home/HomePage';
+import AboutMe from './components/AboutMe/AboutMe';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Nav from './components/Nav/Nav';
 import './App.css'
 
 function App() {

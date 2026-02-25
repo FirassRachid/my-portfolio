@@ -1,7 +1,7 @@
 import "./HomePage.css";
 import MyImag from "../../assets/formal-style.png";
 import { FaGithub } from "react-icons/fa6";
-import CV from "../../assets/CV.pdf";
+import CV from "../../public/cv.pdf";
 function HomePage() {
   return (
     <section className="home-page">
