@@ -1,0 +1,42 @@
+footer{
+  background-color: rgb(95, 156, 235);
+  text-align: center;
+  line-height: 50px;
+  padding: 20px ;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  }
+
+footer a{
+  text-decoration: none;
+  color: rgb(1, 14, 47);
+}
+
+footer p{
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: rgb(1, 14, 47);
+}
+.a-icon-div{
+  font-size: 23px;
+}
+.a-icon-div a {
+  margin: 0 8px;
+}
+
+footer a:hover{
+  color: white;
+  transition: 0.3s;
+}
+
+@media (max-width: 600px) {
+  footer ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

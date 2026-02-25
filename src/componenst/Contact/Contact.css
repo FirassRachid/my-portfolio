@@ -1,0 +1,94 @@
+#Contact{
+  margin-bottom: 0;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 25px 25px 25px 0;
+}
+.contact div {
+  background-color: rgb(25, 62, 156);
+  font-style: italic;
+  border: 2px solid rgb(1, 14, 47);
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin: 0 25px 25px 15px;
+  text-align: center;
+  line-height: 40px;
+  transition: 0.3s;
+}
+.contact div:hover {
+  background-color: rgb(1, 14, 47);
+}
+.contact a {
+  color: rgb(170, 170, 253);
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+.contact small {
+  font-size: 25px;
+}
+.send {
+  background-color: rgba(70, 106, 195, 0.222);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  padding-top: 30px;
+}
+.send input {
+  width: 80%;
+  height: 10%;
+}
+.send textarea {
+  padding-top: 10px;
+  min-width: 80%;
+  min-height: 50%;
+  resize: none;
+}
+
+input , textarea {
+  border: none;
+  border-radius: 15px;
+  background-color: #90b9ff66;
+  outline: none;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.968);
+  padding-left: 8px;
+}
+
+input:focus ,textarea:focus {
+  background-color: rgb(1, 14, 47);
+}
+
+input::placeholder , textarea::placeholder {
+  color: rgb(157, 167, 167);
+}
+
+.send-butt{
+  color: rgb(2, 2, 103);
+  background-color: rgb(95, 156, 235);
+}
+.send-butt:hover{
+ background-color: rgb(2, 2, 103);  
+  color: rgb(95, 156, 235);
+}
+
+@media (max-width:800px) {
+  .contact-container {
+  grid-template-columns: 1fr;
+}
+.contact div{
+  padding: 8px;
+  height: 120px;
+  line-height: 25px;
+}
+.send{
+  height: 400px;
+  margin: 0 25px 0 15px;
+}
+}

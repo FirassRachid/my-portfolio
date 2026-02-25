@@ -1,0 +1,39 @@
+.name{
+    text-align: center;
+    margin-top: 10px;
+}
+.name h4 {
+  color: rgba(255, 255, 255, 0.841);
+}
+.name h1{
+  font-size: 40px;
+  margin: 10px 0;
+}
+.my-photo{
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  height: 250px; 
+}
+.my-photo img{
+  border-radius: 200px 200px 0 0;
+  width: 100%;
+  background: linear-gradient(rgb(144, 201, 255),transparent);
+box-shadow : 5px 7px 15px rgb(99, 161, 219);
+}
+.git-icon-div{
+ margin-top: 60px;
+ text-align: center;
+ font-size: 20px;
+}
+.git-icon-div a {
+color: white;
+text-decoration: none;
+background: rgb(95, 156, 235);
+color: rgb(2, 2, 103);
+padding: 12px;
+border-radius: 15px;
+}
+.github-icon{
+  margin-left: 8px;
+}
