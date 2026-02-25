@@ -2,7 +2,7 @@ import Project1 from "../../assets/projects/products.png";
 import Project2 from "../../assets/projects/edubridge.png";
 import Project3 from "../../assets/projects/ecommerce.png";
 import Project4 from "../../assets/projects/food.png";
-import "./projects.css";
+import "./Projects.css";
 
 function Projects() {
   const ProjectsData = [
