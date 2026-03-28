@@ -7,6 +7,7 @@ import GitHUB from "../../assets/github.svg";
 import TS from "../../assets/typescript.svg";
 import SASS from "../../assets/sass.svg";
 import Git from "../../assets/git.svg";
+import Tailwind from "../../assets/tailwind.svg";
 import "./Skills.css";
 function Skills() {
   const SkillsData = [
@@ -65,6 +66,13 @@ function Skills() {
       title: "SASS",
       disc: "CSS extension language",
       reatio: "50%",
+    },
+    {
+      id: 9,
+      image: Tailwind,
+      title: "Tailwindcss",
+      disc: "A utility-first CSS framework",
+      reatio: "65%",
     },
   ];
 
