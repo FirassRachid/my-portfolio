@@ -2,6 +2,7 @@ import Project1 from "../../assets/projects/products.png";
 import Project2 from "../../assets/projects/edubridge.png";
 import Project3 from "../../assets/projects/ecommerce.png";
 import Project4 from "../../assets/projects/food.png";
+import Project5 from "../../assets/projects/cars.png";
 import "./Projects.css";
 
 function Projects() {
@@ -33,6 +34,13 @@ function Projects() {
       title: "Food Recipe",
       link: `https://fr-foodrecipe.netlify.app/`,
       sourceCode: `https://github.com/FirassRachid/food-recipe-app.git`,
+    },
+    {
+      id: 5,
+      image: Project5,
+      title: "Cars Selling (Under design...)",
+      link: `https://fr-cars.netlify.app/`,
+      sourceCode: `https://github.com/FirassRachid/cars-project`,
     },
   ];
   return (
